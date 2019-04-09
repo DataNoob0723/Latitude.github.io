@@ -1,0 +1,125 @@
+/*My customized CSS file*/
+
+body
+{
+    font-family: "Lora";
+}
+
+/*index.html*/
+.navbar-brand
+{
+    margin-left: 5%;
+    font-size: 180%;
+}
+#navbarSupportedContent
+{
+    margin-right: 50px;
+}
+.navbar-nav li
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.left_sec, .right_sec
+{
+    background-color: #ffffff;
+    border: 1px black solid;
+    margin-top: 50px;
+}
+
+.right_left_1
+{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.right_right_1
+{
+    margin-top: 10px;
+    padding-right: 20px;
+}
+.right_left_2
+{
+    margin-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+.right_right_2
+{
+    margin-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+}
+.header_left
+{
+    padding-top: 20px;
+    padding-left: 20px;
+    /*padding-bottom: 4px;*/
+}
+.header_right
+{
+    padding-top: 20px;
+    padding-left: 20px;
+    /*padding-bottom: 4px;*/
+}
+.image_summary
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#img_link {
+    margin-right: 10px;
+}
+#row_up
+{
+    margin-top: -10px;
+}
+#row_down
+{
+    margin-bottom: -5px;
+}
+
+
+/*comparison.html*/
+.comp_header
+{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.explain_text
+{
+    padding-bottom: 20px;
+}
+#num1
+{
+    padding-bottom: 20px;
+}
+#num2
+{
+    margin-bottom: 40px;
+}
+
+
+/*data.html*/
+.data_header
+{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.explain
+{
+    padding-bottom: 20px;
+}
+
+
+/*each individual plot page*/
+.page_header
+{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+#main_image
+{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
