@@ -13,26 +13,56 @@
 </head>
 
 <body>
-<div class="container">
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="page_header">
-                <h1><strong>Wind Speed</strong></h1>
-            </div>
-            <hr>
-            <div class="text-center" id="main_image">
-                <img src="images/lat_vs_windspeed.png" alt="page_image" class="img-fluid">
-            </div>
-            <div class="exp_text">
-                <p>
-                    It seems that there is not much difference in terms of wind speed between the northern hemisphere and the southern hemisphere.
-                    However, it can be noticed that there are a few cities from the northern hemisphere which have extremely high wind speed.
-                </p>
-            </div>
+    <!--Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html"><strong>Latitude</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="cloudiness.html" target="_blank">Cloudiness</a>
+                        <a class="dropdown-item" href="humid.html" target="_blank">Humidity</a>
+                        <a class="dropdown-item" href="max_temp.html" target="_blank">Max Temperature</a>
+                        <a class="dropdown-item" href="windspeed.html" target="_blank">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="comparison.html" target="_blank">Comparison <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="data.html" target="_blank">Data <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="page_header">
+                    <h1><strong>Wind Speed</strong></h1>
+                </div>
+                <hr>
+                <div class="text-center" id="main_image">
+                    <img src="images/lat_vs_windspeed.png" alt="page_image" class="img-fluid">
+                </div>
+                <div class="exp_text">
+                    <p>
+                        It seems that there is not much difference in terms of wind speed between the northern hemisphere and the southern hemisphere.
+                        However, it can be noticed that there are a few cities from the northern hemisphere which have extremely high wind speed.
+                    </p>
+                </div>
+
+            </div>
         </div>
     </div>
-</div>
 
 </body>
 </html>

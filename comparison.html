@@ -14,6 +14,36 @@
 
 
 <body>
+<!--Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html"><strong>Latitude</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="cloudiness.html" target="_blank">Cloudiness</a>
+                        <a class="dropdown-item" href="humid.html" target="_blank">Humidity</a>
+                        <a class="dropdown-item" href="max_temp.html" target="_blank">Max Temperature</a>
+                        <a class="dropdown-item" href="windspeed.html" target="_blank">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="comparison.html" target="_blank">Comparison <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="data.html" target="_blank">Data <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <div class="container">
         <div class="comp_header">
             <h1><strong>Comparison: Lattitude vs X</strong></h1>
